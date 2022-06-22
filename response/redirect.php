@@ -1,7 +1,7 @@
 <?php
 
 header('HTTP/1.1 307 Temporary Redirect');
-header('Location: http://example.com/redirected');
+header('Location: http://localhost:8080/redirected');
 ?>
 <!DOCTYPE html>
 <html>

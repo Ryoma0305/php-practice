@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 declare(strict_types=1);
 
@@ -9,7 +9,7 @@ require_once dirname(__FILE__) . '/functions.php';
 <html>
 <head>
     <meta charset="utf-8">
-    <title>クッキーの利用 - honkaku</title>
+    <title>クッキーの利用</title>
 </head>
 <body>
     <h2>イベント一覧</h2>

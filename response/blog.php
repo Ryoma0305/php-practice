@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-$articles = 
+$articles =
 [
     1001 => 'シンガポール料理を食べてきました',
     1002 => 'PHPとJavaScriptの連携について',
@@ -19,7 +19,7 @@ if (!isset($_GET['articleId']) || !isset($articles[$_GET['articleId']])) {
 <html>
 <head>
     <meta charset="utf-8">
-    <title>header関数 - honkaku</title>
+    <title>header関数</title>
 </head>
 <body>
     ブログ記事「<?=$articles[$_GET['articleId']]?>」

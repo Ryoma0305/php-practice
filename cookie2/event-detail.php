@@ -15,7 +15,7 @@ if (isset($_GET['eventId']) && isset($eventData[$_GET['eventId']])) {
 <html>
 <head>
     <meta charset="utf-8">
-    <title>クッキーの実用 - honkaku</title>
+    <title>クッキーの実用</title>
 </head>
 <body>
     <h2>「<?=escape($eventData[$_GET['eventId']])?>」</h2>

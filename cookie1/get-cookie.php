@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>クッキー変数 - honkaku</title>
+    <title>クッキー変数</title>
 </head>
 <body>
     Webブラウザから送信されたクッキーの内容は、以下の通りです。<br>

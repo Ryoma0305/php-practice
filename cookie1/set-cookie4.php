@@ -9,7 +9,7 @@ setcookie("name1", 'value2', time() + 60 * 20, '/', '', false, true);
 <html>
 <head>
     <meta charset="utf-8">
-    <title>クッキーの送出4 - honkaku</title>
+    <title>クッキーの送出4</title>
 </head>
 <body>
     <p>PHPからクッキーを送出しました。</p>

@@ -9,7 +9,7 @@ setcookie("name1", '', time() - 60 * 60, '/', '', false, true);
 <html>
 <head>
     <meta charset="utf-8">
-    <title>クッキーの削除 - honkaku</title>
+    <title>クッキーの削除</title>
 </head>
 <body>
     <p>PHPからクッキーを送出した後、すぐに削除しました。</p>

@@ -7,7 +7,7 @@ header('Location: http://example.com/redirected');
 <html>
 <head>
     <meta charset="utf-8">
-    <title>header関数 - honkaku</title>
+    <title>header関数</title>
 </head>
 <body>
     別のサイトにリダイレクトします。

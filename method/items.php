@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>GETメソッド - honkaku</title>
+    <title>GETメソッド</title>
 </head>
 <body>
     <h3>検索したカテゴリーは<?=$_GET['category']?>です。</h3>

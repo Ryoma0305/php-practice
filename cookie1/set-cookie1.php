@@ -1,6 +1,6 @@
 <?php
 
-declare(strict_types=1); 
+declare(strict_types=1);
 
 setcookie("name1", 'value1', time() + 60 * 60, '/', '', false, true);
 ?>
@@ -8,7 +8,7 @@ setcookie("name1", 'value1', time() + 60 * 60, '/', '', false, true);
 <html>
 <head>
     <meta charset="utf-8">
-    <title>クッキーの送出1 - honkaku</title>
+    <title>クッキーの送出1</title>
 </head>
 <body>
     <p>PHPからクッキーを送出しました。</p>

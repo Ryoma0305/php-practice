@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>URLエンコード - honkaku</title>
+    <title>URLエンコード</title>
 </head>
 <body>
     <?php echo $_GET['message'];?>

@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 declare(strict_types=1);
 
@@ -10,7 +10,7 @@ setcookie("name-as-array[2]", 'value2', time() + 60 * 60, '/', '', false, true);
 <html>
 <head>
     <meta charset="utf-8">
-    <title>クッキーの送出2 - honkaku</title>
+    <title>クッキーの送出2</title>
 </head>
 <body>
     <p>PHPからクッキーを送出しました。</p>

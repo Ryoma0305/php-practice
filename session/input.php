@@ -1,22 +1,22 @@
 <?php
 
-declare(strict_types=1); 
+declare(strict_types=1);
 
 function validate()
 {
     return ($_POST['email'] !== '' && $_POST['message'] !== '');
 }
 session_start();
-// 条件①
+
 if (isset($_POST['operation']) && $_POST['operation'] === 'inquiry') {
-    // 条件①-A
+
     if (validate() === false) {
         $message = 'メールアドレス・お問い合わせ内容のいずれも必須入力です。';
         $data = [
             'email' => $_POST['email'],
             'message' => $_POST['message']
         ];
-    // 条件①-B
+
     } else {
         $_SESSION['data'] = [
             'email' => $_POST['email'],
@@ -25,7 +25,7 @@ if (isset($_POST['operation']) && $_POST['operation'] === 'inquiry') {
         header('Location: confirm.php');
         return;
     }
-// 条件②
+
 } elseif (isset($_SESSION['data'])) {
     $data = [
         'email' => $_SESSION['data']['email'],
@@ -37,7 +37,7 @@ if (isset($_POST['operation']) && $_POST['operation'] === 'inquiry') {
 <html>
 <head>
     <meta charset="utf-8">
-    <title>セッションの利用 - honkaku</title>
+    <title>セッションの利用</title>
 </head>
 <body>
     <h2>お問い合わせ入力</h2>

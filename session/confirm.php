@@ -8,7 +8,7 @@ session_start();
 <html>
 <head>
     <meta charset="utf-8">
-    <title>セッションの利用 - honkaku</title>
+    <title>セッションの利用</title>
 </head>
 <body>
     <h2>お問い合わせ確認</h2>

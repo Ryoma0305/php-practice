@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>アクセス修飾子 - honkaku</title>
+    <title>アクセス修飾子</title>
 </head>
 <body>
 <pre>

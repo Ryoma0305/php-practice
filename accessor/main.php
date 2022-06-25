@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>アクセサメソッド - honkaku</title>
+    <title>アクセサメソッド</title>
 </head>
 <body>
 <pre>

@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>$_SERVER - honkaku</title>
+    <title>$_SERVER</title>
 </head>
 <body>
     <h3>以下のリンクをクリックすると、次の画面に移動します。</h3>

@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>$_SERVER - honkaku</title>
+    <title>$_SERVER</title>
 </head>
 <body>
     <h3>サーバー情報は以下の通りです。</h3>

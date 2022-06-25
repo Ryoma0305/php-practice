@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>オブジェクト定数 - honkaku</title>
+    <title>オブジェクト定数</title>
 </head>
 <body>
 <?php

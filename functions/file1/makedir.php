@@ -16,6 +16,9 @@
 
     echo '●new-dir1ディレクトリを削除します。', PHP_EOL;
     rmdir('files/new-dir1');
+
+    echo '●new-dir2ディレクトリを削除します。', PHP_EOL;
+    rmdir('files/new-dir2');
 ?>
 </pre>
 </body>

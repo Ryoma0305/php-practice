@@ -1,7 +1,7 @@
 .docker/
 .codelike_web_docker
 README.md
-/vender
+/vendor
 composer.json
 composer.lock
 /_tmp1

@@ -1,3 +1,9 @@
 .docker/
 .codelike_web_docker
 README.md
+/vendor
+composer.json
+composer.lock
+/_tmp1
+/_tmp2
+/_tmp3

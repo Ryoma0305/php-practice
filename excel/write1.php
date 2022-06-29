@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-require_once dirname(__FILE__) . '/../../vendor/autoload.php';
+require_once dirname(__FILE__) . '/../vendor/autoload.php';
 
 use PhpOffice\PhpSpreadsheet\Cell\DataType;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
@@ -26,7 +26,7 @@ $sheet->setCellValue('D4', '000102');
 $sheet->setCellValue('B5', 141600);
 
 header('Content-Type: application/vnd.ms-excel');
-header('Content-Disposition: attachment; filename="お見積書-テンプレート使用版.xlsx"'); 
+header('Content-Disposition: attachment; filename="お見積書-テンプレート使用版.xlsx"');
 $writer = new Xlsx($spreadsheet);
 $writer->save('php://output');
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-require_once dirname(__FILE__) . '/../../vendor/autoload.php';
+require_once dirname(__FILE__) . '/../vendor/autoload.php';
 
 use PhpOffice\PhpSpreadsheet\Cell\DataType;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
@@ -57,6 +57,6 @@ $sheet->getStyle('A2:D2')->getFill()
     ->getStartColor()->setRGB('FFFF00');
 
 header('Content-Type: application/vnd.ms-excel');
-header('Content-Disposition: attachment; filename="お見積書.xlsx"'); 
+header('Content-Disposition: attachment; filename="お見積書.xlsx"');
 $writer = new Xlsx($spreadsheet);
 $writer->save('php://output');

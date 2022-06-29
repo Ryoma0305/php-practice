@@ -9,7 +9,7 @@
     <?php
         ini_set('memory_limit', '-1');
         ini_set('max_execution_time', '0');
-        define('TARGET_URL', 'http://localhost/honkaku/chapter10/performance/write.php');
+        define('TARGET_URL', 'http://localhost/performance/write.php');
 
         require_once dirname(__FILE__) . '/../../vendor/autoload.php';
 

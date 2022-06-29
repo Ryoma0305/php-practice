@@ -9,7 +9,7 @@
     <?php
         require_once dirname(__FILE__) . '/../../vendor/autoload.php';
         $goutteClient = new Goutte\Client();
-        $crawler = $goutteClient->request('GET', 'http://localhost/honkaku/chapter10/goutte/blog-entries.html');
+        $crawler = $goutteClient->request('GET', 'http://localhost/goutte/blog-entries.html');
         $looped = 0;
     ?>
     <h2>ループ処理で連想配列に変換</h2>

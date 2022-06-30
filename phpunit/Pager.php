@@ -2,45 +2,6 @@
 
 declare(strict_types=1);
 
-/**
- * ページングに必要な情報を計算するクラス。
- *
- * たとえば、「レコード総数：34」「現在のページ番号：4」「1ページあたりのレコード数：10」だった時、
- * 本クラスの計算結果は以下のようになる。
- * 
- *     $pager = new Pager(34, 4, 10);
- * 
- *     // 全レコード数
- *     echo $pager->totalCount , "\n"; // 結果：34
- * 
- *     // 現在のページ番号
- *     echo $pager->currentPage , "\n"; // 結果：4
- * 
- *     // 次ページが存在するかを表す論理値
- *     echo $pager->hasNext , "\n"; // 結果：false
- * 
- *     // 前ページが存在するかを表す論理値
- *     echo $pager->hasPrev , "\n"; // 結果：true
- * 
- *     // 2ページ以上存在するか表す論理値
- *     echo $pager->isPageExists , "\n"; // 結果：true
- * 
- *     // 最初のページ番号
- *     echo $pager->startPage , "\n"; // 結果：1
- * 
- *     // 最後のページ番号
- *     echo $pager->endPage , "\n"; // 結果：4
- * 
- *     // 1ページあたりのレコード数
- *     echo $pager->limit , "\n"; // 結果：10
- * 
- *     // 現在ページに表示される最初のレコード番号
- *     echo $pager->startIndex , "\n"; // 結果：31
- * 
- *     // 現在ページに表示される最後のレコード番号
- *     echo $pager->endIndex , "\n"; // 結果：34
- *
- */
 class Pager
 {
     /**

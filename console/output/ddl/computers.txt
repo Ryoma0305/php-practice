@@ -1,0 +1,11 @@
+CREATE TABLE computers (
+  id                   SERIAL               PRIMARY KEY          COMMENT 'ID',
+  created              TIMESTAMP            NOT NULL             COMMENT '作成日時',
+  modified             TIMESTAMP            NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '変更日時',
+  product_number       VARCHAR(255)         NOT NULL             COMMENT '製品No',
+  operating_system_id  BIGINT                                    COMMENT 'OS種別ID',
+  cpu                  VARCHAR(255)                              COMMENT 'CPU名',
+  memory               INTEGER                                   COMMENT 'メモリ容量(単位：G)',
+  price                INTEGER                                   COMMENT '価格'
+)
+COMMENT = 'PCテーブル';

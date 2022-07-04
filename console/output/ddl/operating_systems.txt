@@ -1,0 +1,8 @@
+CREATE TABLE operating_systems (
+  id                   SERIAL               PRIMARY KEY          COMMENT 'ID',
+  created              TIMESTAMP            NOT NULL             COMMENT '作成日時',
+  modified             TIMESTAMP            NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT '変更日時',
+  os_name              VARCHAR(255)         NOT NULL             COMMENT 'OS名',
+  version              VARCHAR(255)                              COMMENT 'OSバージョン'
+)
+COMMENT = 'OS種別マスタ';

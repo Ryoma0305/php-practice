@@ -15,10 +15,13 @@ require_once '../Encode.php';
 </tr>
 <?php
 try {
+  /* $db = getDb();
+  $stt = $db->prepare('SELECT * FROM book ORDER BY published DESC');
+  $stt->execute(); */
   $db = getDb();
   $stt = $db->prepare('SELECT * FROM book ORDER BY published DESC');
   $stt->execute();
-  while($row = $stt->fetch(PDO::FETCH_ASSOC)) {
+  while($row = $stt->fetch(PDO::FETCH_ASSOC)){
   //foreach($stt as $row) {
 ?>
   <tr>

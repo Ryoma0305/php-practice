@@ -2,7 +2,7 @@
 require_once '.././DbManager.php';
 require_once '../../Encode.php';
 
-try {
+/* try {
   $db = getDb();
   $stt = $db->query('SELECT * FROM book ORDER BY published DESC');
   print '<ul>';
@@ -15,4 +15,20 @@ try {
   print '</ul>';
 } catch(PDOException $e) {
   print "エラーメッセージ：{$e->getMessage()}";
+}  */
+
+try{
+  $db = getDb();
+  $stt = $db->query('SELECT * FROM book ORDER BY published DESC');
+  print '<ul';
+  while($row = $stt->fetch(PDO::FETCH_OBJ)) {
+?>
+    <li>
+    <?=e($row->title) ?>
+    </li>
+<?php
+  }
+  print '</ul>';
+} catch(PDOException $e) {
+  print "エラーメッセージ: {$e->getMessage()}";
 }

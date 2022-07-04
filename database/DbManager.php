@@ -4,7 +4,9 @@ function getDb() {
   $usr = 'selfusr';
   $passwd = 'selfpass';
 
+    //$db = new PDO($dsn, $usr, $passwd);
     $db = new PDO($dsn, $usr, $passwd);
+    //$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     //$db = new PDO($dsn, $usr, $passwd, [PDO::ATTR_PERSISTENT => true);
   return $db;

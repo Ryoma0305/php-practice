@@ -5,4 +5,5 @@ $data = [
   ['Z-1', 'Z-2', 'Z-3']
 ];
 print count($data);
-// print count($data, COUNT_RECURSIVE);
+echo '<br>';
+print count($data, COUNT_RECURSIVE);

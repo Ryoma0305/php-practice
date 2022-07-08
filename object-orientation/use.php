@@ -1,7 +1,7 @@
 <?php
-require_once './MyClass.php';
-require_once './MyClass2.php';
-require_once './MyClass3.php';
+require_once './wings/selfphp/chap10/MyClass.php';
+require_once './wings/selfphp/chap10/MyClass2.php';
+require_once './wings/selfphp/chap10/MyClass3.php';
 
 use wings\selfphp\chap10\MyClass;
 print MyClass::showClass();

@@ -1,6 +1,6 @@
 <?php
-require_once './MyClass.php';
-require_once './sub/MyClass.php';
+require_once './wings/selfphp/chap10/MyClass.php';
+require_once './wings/selfphp/chap10/sub/MyClass.php';
 
 use wings\selfphp\chap10\MyClass;
 use wings\selfphp\chap10\sub\MyClass as SubClass;

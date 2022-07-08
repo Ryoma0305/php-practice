@@ -1,5 +1,5 @@
 <?php
-require_once './MyUtil.php';
+require_once './wings/selfphp/chap10/MyUtil.php';
 
 use wings\selfphp\chap10;
 print chap10\AUTHOR;

@@ -14,6 +14,7 @@
 $file = file('access.log');
 foreach ($file as $fline) {
   $line = explode("\t", $fline);
+  var_dump($line);
   print '<tr>';
   foreach ($line as $value) {
     print '<td>' . $value . '</td>';

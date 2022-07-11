@@ -8,8 +8,10 @@
 <body>
 <?php
     require_once dirname(__FILE__) . '/Office/Word/Writer.php';
+    //use Office\Word\Writer;
+    //$writer = new Writer(); // WordのWriterクラスを使う
     use Office\Word\Writer;
-    $writer = new Writer(); // WordのWriterクラスを使う
+    $writer = new Writer();
     $writer->write();
 ?>
 </body>

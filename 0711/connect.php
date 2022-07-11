@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>データベースへの接続</title>
+
 </head>
 <body>
 <?php

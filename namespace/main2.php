@@ -5,12 +5,13 @@
     <meta charset="utf-8">
     <title>名前空間2</title>
 </head>
-<body>
+<body>¬l
 <?php
-    require_once dirname(__FILE__) . '/Office/File.php';
-    $file = new Office\File();
-    $file->setWordProperty();
-    $file->setExcelProperty();
+require_once dirname(__FILE__) . '/Office/File.php';
+//$file = new Office\File();
+$file = new Office\File();
+$file->setWordProperty();
+$file->setExcelProperty();
 ?>
 </body>
 </html>

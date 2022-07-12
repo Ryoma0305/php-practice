@@ -1,5 +1,6 @@
 <?php
 
+//namespace Office\Word;
 namespace Office\Word;
 
 // Wordファイルの書き出しクラス

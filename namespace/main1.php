@@ -10,6 +10,7 @@
     require_once dirname(__FILE__) . '/Office/Word/Writer.php';
     require_once dirname(__FILE__) . '/Office/Excel/Writer.php';
 
+    //$writer = new \Office\Word\Writer();
     $writer = new \Office\Word\Writer();
     $writer->write();
 

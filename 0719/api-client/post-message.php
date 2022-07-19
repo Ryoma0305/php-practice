@@ -11,7 +11,7 @@
             'userId' => 1001,
             'message' => '今日は晴天でした。'
         ];
-        $url = 'http://localhost/honkaku/chapter11/api-server/message.php';
+        $url = 'http://localhost/api-server/message.php';
         $handle = curl_init($url);
         curl_setopt($handle, CURLOPT_CUSTOMREQUEST, 'POST');
         curl_setopt($handle, CURLOPT_POSTFIELDS, $params);

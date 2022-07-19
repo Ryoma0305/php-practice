@@ -12,7 +12,7 @@
             'messageId' => 'm900001',
             'message' => '今日は晴天でしたが、のちに雨となりました。'
         ];
-        $url = 'http://localhost/honkaku/chapter11/api-server/message.php';
+        $url = 'http://localhost/api-server/message.php';
         $handle = curl_init($url);
         curl_setopt($handle, CURLOPT_CUSTOMREQUEST, 'PUT');
         curl_setopt($handle, CURLOPT_POSTFIELDS, http_build_query($params));

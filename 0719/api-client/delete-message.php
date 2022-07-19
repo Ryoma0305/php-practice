@@ -11,7 +11,7 @@
             'userId' => 1001,
             'messageId' => 'm900001',
         ];
-        $url = 'http://localhost/honkaku/chapter11/api-server/message.php';
+        $url = 'http://localhost/api-server/message.php';
         $handle = curl_init($url);
         curl_setopt($handle, CURLOPT_CUSTOMREQUEST, 'DELETE');
         curl_setopt($handle, CURLOPT_POSTFIELDS, http_build_query($params));
